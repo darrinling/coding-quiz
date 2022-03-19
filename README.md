@@ -17,6 +17,6 @@ Description: A coding quiz that satisfies the following criteria:
   WHEN the game is over
   THEN I can save my initials and my score
 
-![](https://github.com/darrinling/coding-quiz/blob/main/coding-quiz.gif)
+![](coding-quiz.gif)
 
 Link to deployed application: https://darrinling.github.io/coding-quiz/
