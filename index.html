@@ -11,7 +11,7 @@
 
     <header>
       <h3 id="highScores">View High Scores</h3>
-      <h3 id="timer-count">Time: 30</h3>
+      <h3 id="timer-count">Time: 75</h3>
     </header>
     <h1>Coding Quiz</h1>
     <main>
@@ -21,13 +21,14 @@
           <div id="question"></div>
           <ul id="options">
             <li><button class="optOne"></button></li>
-            <li><button class="optTwo" id="Two"></button></li>
-            <li><button class="optThree" id="Three"></button></li>
-            <li><button class="optFour" id="Four"></button></li>
+            <li><button class="optTwo"></button></li>
+            <li><button class="optThree"></button></li>
+            <li><button class="optFour"></button></li>
           </ul>
         </div>
         <div style="display:none" id="answer"></div>
-
+        <button style="display:none" id="next">Next Question</button>
+        <button style="display:none" id="endGame">Enter High Score</button>
       </div>
     </main>
     <script src="script.js"></script>
