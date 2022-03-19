@@ -70,8 +70,16 @@ h1 {
   margin-left:20px;
 }
 
-#endGame {
+#endGame{
   display:block;
   margin-top:50%;
+}
 
+#playAgain {
+  display:block;
+  margin-top:60%;
+}
+
+.card {
+  position: absolute;
 }

@@ -29,6 +29,16 @@
         <div style="display:none" id="answer"></div>
         <button style="display:none" id="next">Next Question</button>
         <button style="display:none" id="endGame">Enter High Score</button>
+        <button style="display:none" id="playAgain">Play Again</button>
+        <div style="display:none" class="card">
+          <h1>High Scores</h1>
+          <form id="todo-form" method="POST">
+            <label for="todo-text">Add player's initials: </label>
+            <input type="text" placeholder="I need to..." name="todo-text" id="todo-text" />
+          </form>
+          <p>Best Games: <span id="todo-count">0</span></p>
+          <ul id="todo-list"></ul>
+        </div>
       </div>
     </main>
     <script src="script.js"></script>
